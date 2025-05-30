@@ -1,0 +1,93 @@
+@use 'variaveis';
+@use 'sass:math';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: variaveis.$fonteGeral;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin botao() {
+    color: variaveis.$corFonte2;
+    background-color: variaveis.$corFundoBotao;
+}
+
+@function medidaEm($medidaAlvo, $medidaAtual: 16px) {
+    @return math.div($medidaAlvo, $medidaAtual)+em;
+}
+
+
+.navbar {
+    background-color: variaveis.$corFundo2;
+}
+
+.navbar h1,
+.navbar h1:hover {
+    color: variaveis.$corFonte2;
+}
+
+.navbar .navbar-toggler {
+    background-color: variaveis.$corFonte2;
+}
+
+.nav .nav-link,
+.nav .nav-link:hover {
+    color: variaveis.$corFonte2;
+}
+
+#secao-1 {
+    background-color: variaveis.$corFundo4;
+
+    .btn {
+        @include botao();
+    }
+
+    .btn:hover {
+        background-color: variaveis.$corFundoBotaoHover;
+    }
+}
+
+
+#secao-2 {
+    background-color: variaveis.$corFundo3;
+
+    .btn {
+        @include botao();
+    }
+
+    .btn:hover {
+        background-color: variaveis.$corFundoBotaoHover;
+    }
+}
+
+#secao-3 {
+    background-color: variaveis.$corFundo6;
+}
+
+#secao-4 {
+    background-color: variaveis.$corFundo5;
+}
+
+#secao-5 {
+    background-color: variaveis.$corFundo4;
+
+    .btn {
+        @include botao();
+    }
+
+    .btn:hover {
+        background-color: variaveis.$corFundoBotaoHover;
+    }
+}
+
+.rodape {
+    background-color: variaveis.$corFundo2;
+
+    p {
+        color: variaveis.$corFonte2;
+    }
+}
+

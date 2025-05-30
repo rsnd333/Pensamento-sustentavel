@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+  background-color: #4B5945;
+}
+
+.navbar h1,
+.navbar h1:hover {
+  color: #FFFDF6;
+}
+
+.navbar .navbar-toggler {
+  background-color: #FFFDF6;
+}
+
+.nav .nav-link,
+.nav .nav-link:hover {
+  color: #FFFDF6;
+}
+
+#secao-1 {
+  background-color: #FDFAF6;
+}
+#secao-1 .btn {
+  color: #FFFDF6;
+  background-color: #27391C;
+}
+#secao-1 .btn:hover {
+  background-color: #255F38;
+}
+
+#secao-2 {
+  background-color: #F79B72;
+}
+#secao-2 .btn {
+  color: #FFFDF6;
+  background-color: #27391C;
+}
+#secao-2 .btn:hover {
+  background-color: #255F38;
+}
+
+#secao-3 {
+  background-color: #EFDCAB;
+}
+
+#secao-4 {
+  background-color: #B2CD9C;
+}
+
+#secao-5 {
+  background-color: #FDFAF6;
+}
+#secao-5 .btn {
+  color: #FFFDF6;
+  background-color: #27391C;
+}
+#secao-5 .btn:hover {
+  background-color: #255F38;
+}
+
+.rodape {
+  background-color: #4B5945;
+}
+.rodape p {
+  color: #FFFDF6;
+}
+/*# sourceMappingURL=maps/main.css.map */

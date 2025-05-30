@@ -1,0 +1,1 @@
+let ano=document.querySelector("#ano-atual");ano.innerHTML=new Date;
